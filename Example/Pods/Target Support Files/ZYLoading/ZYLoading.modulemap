@@ -1,0 +1,6 @@
+framework module ZYLoading {
+  umbrella header "ZYLoading-umbrella.h"
+
+  export *
+  module * { export * }
+}

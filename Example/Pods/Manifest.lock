@@ -1,0 +1,16 @@
+PODS:
+  - ZYLoading (0.1.0)
+
+DEPENDENCIES:
+  - ZYLoading (from `../`)
+
+EXTERNAL SOURCES:
+  ZYLoading:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZYLoading: 1d5d5b8ac114ad79ef86c0957ac9d99553f888d9
+
+PODFILE CHECKSUM: a87ce6578aa03a992b32471048a4fddbc2381c8d
+
+COCOAPODS: 1.7.2

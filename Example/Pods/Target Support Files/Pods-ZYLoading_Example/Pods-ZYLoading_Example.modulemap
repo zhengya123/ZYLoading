@@ -1,0 +1,6 @@
+framework module Pods_ZYLoading_Example {
+  umbrella header "Pods-ZYLoading_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

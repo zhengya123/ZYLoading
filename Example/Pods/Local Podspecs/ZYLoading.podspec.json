@@ -1,6 +1,6 @@
 {
   "name": "ZYLoading",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "summary": "A short description of ZYLoading.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zhengya123/ZYLoading",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zhengya123/ZYLoading.git",
-    "tag": "1.0.3"
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "8.0"

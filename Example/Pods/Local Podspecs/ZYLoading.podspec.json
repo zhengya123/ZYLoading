@@ -1,6 +1,6 @@
 {
   "name": "ZYLoading",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "summary": "A short description of ZYLoading.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zhengya123/ZYLoading",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/zhengya123/ZYLoading.git",
-    "tag": "0.1.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZYLoading/Classes/**/*"
+  "source_files": "ZYLoading/Classes/**/*",
+  "resource_bundles": {
+    "ZYLoading": [
+      "ZYLoading/Assets/**/*.png"
+    ]
+  }
 }

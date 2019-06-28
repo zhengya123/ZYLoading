@@ -94,7 +94,7 @@
 - (UIImageView *)imageView{
     if (_imageView == nil) {
         _imageView = [UIImageView new];
-        _imageView.image = [UIImage imageNamed:@"upVersionHeaderImage"];
+        _imageView.image = [UIImage imageNamed:@"upVersionHeaderImage.png"];
     }
     return _imageView;
 }
@@ -108,8 +108,8 @@
 - (UIButton *)cancelBtn{
     if (_cancelBtn == nil) {
         _cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_cancelBtn setImage:[UIImage imageNamed:@"upVersionCancelBtnImageNomal"] forState:UIControlStateNormal];
-        [_cancelBtn setImage:[UIImage imageNamed:@"upVersionCancelBtnImage"] forState:UIControlStateHighlighted];
+        [_cancelBtn setImage:[UIImage imageNamed:@"upVersionCancelBtnImage.png"] forState:UIControlStateNormal];
+        [_cancelBtn setImage:[UIImage imageNamed:@"upVersionCancelBtnImage.png"] forState:UIControlStateHighlighted];
         [_cancelBtn addTarget:self action:@selector(cancelBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _cancelBtn;

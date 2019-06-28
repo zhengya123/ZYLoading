@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96E54E264346FE6F75014B7A /* Pods-ZYLoading_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYLoading_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZYLoading_Example/Pods-ZYLoading_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B48B266AE40E0EAF27E2D809 /* ZYLoading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYLoading.podspec; path = ../ZYLoading.podspec; sourceTree = "<group>"; };
+		B48B266AE40E0EAF27E2D809 /* ZYLoading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYLoading.podspec; path = ../ZYLoading.podspec; sourceTree = "<group>"; };
 		CB2C8C49D4913CB15AE33F0E /* Pods-ZYLoading_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYLoading_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZYLoading_Tests/Pods-ZYLoading_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F2398F36D1A56433AD4834AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F669860F2FA7262C368D5742 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F2398F36D1A56433AD4834AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F669860F2FA7262C368D5742 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				15B7639A7C864E1463C8586D /* Pods-ZYLoading_Tests.debug.xcconfig */,
 				CB2C8C49D4913CB15AE33F0E /* Pods-ZYLoading_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhengya123;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = AUG8R2Q7U7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,13 +496,16 @@
 			baseConfigurationReference = 96E54E264346FE6F75014B7A /* Pods-ZYLoading_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AUG8R2Q7U7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZYLoading/ZYLoading-Prefix.pch";
 				INFOPLIST_FILE = "ZYLoading/ZYLoading-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -510,13 +515,16 @@
 			baseConfigurationReference = 54B2567A753A46AE4C17B215 /* Pods-ZYLoading_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AUG8R2Q7U7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZYLoading/ZYLoading-Prefix.pch";
 				INFOPLIST_FILE = "ZYLoading/ZYLoading-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

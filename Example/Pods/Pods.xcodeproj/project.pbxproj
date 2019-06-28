@@ -8,28 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		02171ED85003C0240D55572744CF5B77 /* Pods-ZYLoading_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A46822F7A70C19C1DA575E02083C8D8 /* Pods-ZYLoading_Tests-dummy.m */; };
+		0BD2D76FD960EC07CAF63B9B7342F12C /* UpVersionMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 7239357909EEA2E850E803C4FBD387D1 /* UpVersionMethod.m */; };
 		14BDF89DEBEAF20AB51125D1807F9F19 /* Pods-ZYLoading_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B610149469B8B0109E69D3E49BF9F354 /* Pods-ZYLoading_Example-dummy.m */; };
-		1E1A87E20C18559E267AEB20B017905F /* HSUpdateApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 828DFF424DDB8F3FD63F496F63DFAC62 /* HSUpdateApp.m */; };
-		37F785D76B2D9B57F72BAC7BE4699B1E /* UpVersionMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 7263299AD9A455AB0ED40F72F2A094C6 /* UpVersionMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F40D437CAE72CEC3D0D9754234F52A0 /* WJC_LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0873599FE2618BA4C482B6A9ACE8B036 /* WJC_LoadingView.m */; };
+		1734C73266C96C9AE3426A218459EEE9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C54B06A805CFF9D217E25E61E0E4238 /* ReplaceMe.m */; };
+		18089DE70A74B2E5B5EAE645DC978400 /* upVersionHeaderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D374E735F310CA81F5C34DA1D248CB /* upVersionHeaderImage.png */; };
+		1CB01804DD89007A6982C1468790AE02 /* ZYLoading-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DA979022587AD2F01D6ADA0A5678F3 /* ZYLoading-dummy.m */; };
+		36260DD795FFBCC848B0FB568CFAEA16 /* HSUpdateApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE5AA8D47A6A087C5B679F9422F70D /* HSUpdateApp.m */; };
 		4485842557210A1D0BCDBD6A5AD6C53D /* Pods-ZYLoading_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A2D81B737705B71F9458C40BB8546D7 /* Pods-ZYLoading_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BD84A4652DE527379201B2992D8B29C /* UpVersionView.h in Headers */ = {isa = PBXBuildFile; fileRef = CED89DE05A06D43D80112C72EF1FCE27 /* UpVersionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4CD8CA8C44E9B8EA6536717B9A3C35 /* UpVersionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 749F30723ED8BA58E17FFDCB7C6D8EEF /* UpVersionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		532B901479DCBC9360B30C6431F490D5 /* ZYLoading.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C1EF54F1D6020DDEF9125A95CFE7669 /* ZYLoading.bundle */; };
+		5660396801540DDEF5F6B95E0D46D8AA /* MessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2194F9DDF77D74DB1D8825B346E9071A /* MessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6324C65B8CFC621E91398E8A973D14BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6EADD0F8FED32AED349514B43253143A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		709EDD7CB224FD666EEC3080374C70B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8039D058F1DA6C44712825D63DA77171 /* ZYLoading-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7637240E6484BF4CFF34C2C65B5A7B15 /* ZYLoading-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF979CEFA2269DE9A8CF66FC4A18B1B /* ZYLoading-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A687C85F0B1C2F0194DF51CE7EA766 /* ZYLoading-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9542C5815E3D7D0C125D59F2E45052 /* upVersionCancelBtnImage.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFA06D20EAC6A34D9E879239AE91FB1 /* upVersionCancelBtnImage.png */; };
 		A04895CFCEE20638757E9CFA903EF8DB /* Pods-ZYLoading_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0A72AA1678C18E90273162C18F648D /* Pods-ZYLoading_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADCB5ED0AF90349FCE77C233BC5BC7C9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B6CCE847163D8B829184651E3B7199 /* ReplaceMe.m */; };
-		C1AA572CE065ADA2A83746AA74234FCE /* MessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F33FDB4C731646FFB8802C20C426DD63 /* MessageView.m */; };
-		C3FF55F6DA9F178BB0FE2C3F08E2C04F /* MessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC680C9F1CF6B5D62EB35E77BD3AE38 /* MessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C98F47A549D2FB454F6EDDE370781297 /* WJC_LoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 638945562684D0D1E92B96FBA7FF4BC1 /* WJC_LoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD846947726072678428E093BFD93222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D4FF4B6AC688513CFA4FF930845F354E /* UpVersionMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0A1A7D1AA8BC87F6E6BD45ABAC9E0A /* UpVersionMethod.m */; };
-		E345B057460A602FBCD55B2A67B3AC7F /* UpVersionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7537912757B27A82CEDF62DD0A039 /* UpVersionView.m */; };
-		E36C02794B6BB9E88AB3B7A09C5E3744 /* HSUpdateApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C3AFCBC35FC92725F5709157704960 /* HSUpdateApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCAF81FF663846B1639709DE4132439F /* ZYLoading-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E80926EADC882ED077BBB05B3F4E9F3 /* ZYLoading-dummy.m */; };
+		A3B49AECA2DDFF0EDE734D8E6D2DE545 /* MessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A9A7B190852484A45AC070826CD32 /* MessageView.m */; };
+		A4EABA59AAE0670BEE4B1D2CFF91454C /* UpVersionMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 136CFF84E71E91AA276CCDD1AF9642BE /* UpVersionMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC1F7FF3221EA9678D17E30CEDC370EB /* upVersionCancelBtnImageNomal.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BDE85F2EF6DD55074AB6925048A56D /* upVersionCancelBtnImageNomal.png */; };
+		E7B9C16B491D3A029354F09A1D8A4026 /* WJC_LoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 06924A0A04DCA742526C87A3127A09F2 /* WJC_LoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E87690C4105940F1663DA7FAD0850423 /* WJC_LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3206289BB6787350AD33070A9361437 /* WJC_LoadingView.m */; };
+		EAFB37A0C2F892312CCBEABEC28D8AAD /* HSUpdateApp.h in Headers */ = {isa = PBXBuildFile; fileRef = C8746593B4E2C80F6A2F6733B6B722CE /* HSUpdateApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF11ED24C3E2A0A79235ADB6B191702F /* UpVersionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1623CB20356EF5FDF555EA790021FD /* UpVersionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		43193C708AA297ABCD322002AF3C480F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944D347223B453F1CEAD1E9FF4F28096;
+			remoteInfo = "ZYLoading-ZYLoading";
+		};
 		CE38B6CEA301213F6F148524EEDD2241 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -47,64 +58,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04CB6994430AD856C0FF07374EDBBBE5 /* ZYLoading.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZYLoading.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		04BDE85F2EF6DD55074AB6925048A56D /* upVersionCancelBtnImageNomal.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = upVersionCancelBtnImageNomal.png; path = ZYLoading/Assets/WJCResource/upVersionCancelBtnImageNomal.png; sourceTree = "<group>"; };
+		04D374E735F310CA81F5C34DA1D248CB /* upVersionHeaderImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = upVersionHeaderImage.png; path = ZYLoading/Assets/WJCResource/upVersionHeaderImage.png; sourceTree = "<group>"; };
+		06924A0A04DCA742526C87A3127A09F2 /* WJC_LoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJC_LoadingView.h; sourceTree = "<group>"; };
 		071EABD2BABA73619F622516A84B7F69 /* Pods-ZYLoading_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYLoading_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0873599FE2618BA4C482B6A9ACE8B036 /* WJC_LoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJC_LoadingView.m; sourceTree = "<group>"; };
-		0F0A1A7D1AA8BC87F6E6BD45ABAC9E0A /* UpVersionMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UpVersionMethod.m; sourceTree = "<group>"; };
-		0FA7537912757B27A82CEDF62DD0A039 /* UpVersionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UpVersionView.m; sourceTree = "<group>"; };
+		0C1EF54F1D6020DDEF9125A95CFE7669 /* ZYLoading.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZYLoading.bundle; path = "ZYLoading-ZYLoading.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		125E76FA2744DFE7B873D32C9304EB21 /* Pods-ZYLoading_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYLoading_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		23B6CCE847163D8B829184651E3B7199 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZYLoading/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		27A6FCEACD81658A62B14BDD4A0044CE /* Pods_ZYLoading_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYLoading_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		136CFF84E71E91AA276CCDD1AF9642BE /* UpVersionMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UpVersionMethod.h; sourceTree = "<group>"; };
+		1C8A9A7B190852484A45AC070826CD32 /* MessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MessageView.m; sourceTree = "<group>"; };
+		2194F9DDF77D74DB1D8825B346E9071A /* MessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MessageView.h; sourceTree = "<group>"; };
+		27A6FCEACD81658A62B14BDD4A0044CE /* Pods_ZYLoading_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYLoading_Tests.framework; path = "Pods-ZYLoading_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CE5AA8D47A6A087C5B679F9422F70D /* HSUpdateApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSUpdateApp.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3E80926EADC882ED077BBB05B3F4E9F3 /* ZYLoading-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYLoading-dummy.m"; sourceTree = "<group>"; };
 		41DFFF5789D2D00ED8D20B84D1785318 /* Pods-ZYLoading_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYLoading_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		46FE491263A5D1FF0A11C5065665DB44 /* Pods-ZYLoading_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYLoading_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4A46822F7A70C19C1DA575E02083C8D8 /* Pods-ZYLoading_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYLoading_Tests-dummy.m"; sourceTree = "<group>"; };
-		5D90E0DE2B1ABA0E09C27947741DB299 /* Pods_ZYLoading_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYLoading_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		614C563C02F7C6026059AF82D275DF92 /* ZYLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		638945562684D0D1E92B96FBA7FF4BC1 /* WJC_LoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJC_LoadingView.h; sourceTree = "<group>"; };
+		5C54B06A805CFF9D217E25E61E0E4238 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZYLoading/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		5D90E0DE2B1ABA0E09C27947741DB299 /* Pods_ZYLoading_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYLoading_Example.framework; path = "Pods-ZYLoading_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		614C563C02F7C6026059AF82D275DF92 /* ZYLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYLoading.framework; path = ZYLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2D81B737705B71F9458C40BB8546D7 /* Pods-ZYLoading_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYLoading_Example-umbrella.h"; sourceTree = "<group>"; };
-		7263299AD9A455AB0ED40F72F2A094C6 /* UpVersionMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UpVersionMethod.h; sourceTree = "<group>"; };
-		72AB256440785A4D788FD52909BD6B23 /* ZYLoading-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYLoading-prefix.pch"; sourceTree = "<group>"; };
+		7239357909EEA2E850E803C4FBD387D1 /* UpVersionMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UpVersionMethod.m; sourceTree = "<group>"; };
+		749F30723ED8BA58E17FFDCB7C6D8EEF /* UpVersionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UpVersionView.h; sourceTree = "<group>"; };
+		7586A7EF9040B191C3467E277565B478 /* ZYLoading-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYLoading-prefix.pch"; sourceTree = "<group>"; };
 		758BE77DD1D71B53CCE4843BED187051 /* Pods-ZYLoading_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYLoading_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		75C3AFCBC35FC92725F5709157704960 /* HSUpdateApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSUpdateApp.h; sourceTree = "<group>"; };
-		7637240E6484BF4CFF34C2C65B5A7B15 /* ZYLoading-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYLoading-umbrella.h"; sourceTree = "<group>"; };
-		7743E644EFBF8D328EF62B194B3EF1F0 /* ZYLoading.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYLoading.modulemap; sourceTree = "<group>"; };
+		76DA979022587AD2F01D6ADA0A5678F3 /* ZYLoading-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYLoading-dummy.m"; sourceTree = "<group>"; };
+		77D37B2B53DE96466B96E759B90FABCD /* ZYLoading.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYLoading.xcconfig; sourceTree = "<group>"; };
 		7F689CF9BEF1051C6B500A44C3B45824 /* Pods-ZYLoading_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYLoading_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		828DFF424DDB8F3FD63F496F63DFAC62 /* HSUpdateApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSUpdateApp.m; sourceTree = "<group>"; };
 		836BF5B87EB28A2D7ACE7B3E1A27E35D /* Pods-ZYLoading_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYLoading_Example.modulemap"; sourceTree = "<group>"; };
 		8A30CEB6B5B72A7523AF2F53CA72CCEE /* Pods-ZYLoading_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYLoading_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		951F1C55DECE7BE2C26B47C050CDBCAE /* ResourceBundle-ZYLoading-ZYLoading-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZYLoading-ZYLoading-Info.plist"; sourceTree = "<group>"; };
 		98DB27B599EB99BFD48211867FA13778 /* Pods-ZYLoading_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYLoading_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9B0A72AA1678C18E90273162C18F648D /* Pods-ZYLoading_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYLoading_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA2B5EE557D6ECFE5F86ED8F5BE91B90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9C471B23B408DD5E4D3466494F9EAF93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1A3D40FDB9553118D02CB825B8830C6 /* ZYLoading.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYLoading.modulemap; sourceTree = "<group>"; };
 		AA31FBAE1485A57087621E8112FD796A /* Pods-ZYLoading_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYLoading_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B1DEA015E2FF20034F242337596C0D7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B610149469B8B0109E69D3E49BF9F354 /* Pods-ZYLoading_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYLoading_Example-dummy.m"; sourceTree = "<group>"; };
-		BC52665A69B9CA50A348402B36386F6E /* ZYLoading.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYLoading.xcconfig; sourceTree = "<group>"; };
-		CED89DE05A06D43D80112C72EF1FCE27 /* UpVersionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UpVersionView.h; sourceTree = "<group>"; };
+		C0B19191601734F4EC58480162C55A5B /* ZYLoading.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZYLoading.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7A6D8B35B5E2B76D4B7EBC7B7A882C4 /* ZYLoading-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZYLoading-Info.plist"; sourceTree = "<group>"; };
+		C8746593B4E2C80F6A2F6733B6B722CE /* HSUpdateApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSUpdateApp.h; sourceTree = "<group>"; };
+		CC1623CB20356EF5FDF555EA790021FD /* UpVersionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UpVersionView.m; sourceTree = "<group>"; };
 		DEA43BE6D60857CBFBB113316F1C6E83 /* Pods-ZYLoading_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYLoading_Tests-Info.plist"; sourceTree = "<group>"; };
-		E2BFBE6C8BD3D7977652CE44F06AB4B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ECC680C9F1CF6B5D62EB35E77BD3AE38 /* MessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MessageView.h; sourceTree = "<group>"; };
-		F153F70A1E534B90D3D7AE3E6B4411BD /* ZYLoading-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZYLoading-Info.plist"; sourceTree = "<group>"; };
+		ECFA06D20EAC6A34D9E879239AE91FB1 /* upVersionCancelBtnImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = upVersionCancelBtnImage.png; path = ZYLoading/Assets/WJCResource/upVersionCancelBtnImage.png; sourceTree = "<group>"; };
+		F1A687C85F0B1C2F0194DF51CE7EA766 /* ZYLoading-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYLoading-umbrella.h"; sourceTree = "<group>"; };
 		F31FF909178133F7579E92877132F63A /* Pods-ZYLoading_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYLoading_Tests.modulemap"; sourceTree = "<group>"; };
-		F33FDB4C731646FFB8802C20C426DD63 /* MessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MessageView.m; sourceTree = "<group>"; };
+		F3206289BB6787350AD33070A9361437 /* WJC_LoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJC_LoadingView.m; sourceTree = "<group>"; };
 		FE90C6E1A744CB6E2BB0C8D62396D101 /* Pods-ZYLoading_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYLoading_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1FB65B85A3ADB91513352CCBA4416580 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD846947726072678428E093BFD93222 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2CA4CB791D0DFC57E6B7C02994BAAAB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				709EDD7CB224FD666EEC3080374C70B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0C8F3D7F133020634DFF194A4B6AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6324C65B8CFC621E91398E8A973D14BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D5EB13BA863DDF0D9EE33084DFF828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,34 +142,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CF22804DCF78F0FBD42D53986F11D61 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D90E0DE2B1ABA0E09C27947741DB299 /* Pods_ZYLoading_Example.framework */,
-				27A6FCEACD81658A62B14BDD4A0044CE /* Pods_ZYLoading_Tests.framework */,
-				614C563C02F7C6026059AF82D275DF92 /* ZYLoading.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		303A152C63912E7C669A28C17DEC037C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AA2B5EE557D6ECFE5F86ED8F5BE91B90 /* LICENSE */,
-				E2BFBE6C8BD3D7977652CE44F06AB4B8 /* README.md */,
-				04CB6994430AD856C0FF07374EDBBBE5 /* ZYLoading.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		75A61BAAF8EEE789149AE38B0AF1D617 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E854BF22A5768772294FBC5FE2C3976B /* ZYLoading */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		8125746A12501BF7C1AD20D98C046E3B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,22 +151,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		83B1DFB8E294B265FA359580AA8BB5B0 /* UploadV */ = {
+		81BDC1890BE926EFDD111DFDCD5C1E49 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				75C3AFCBC35FC92725F5709157704960 /* HSUpdateApp.h */,
-				828DFF424DDB8F3FD63F496F63DFAC62 /* HSUpdateApp.m */,
-				ECC680C9F1CF6B5D62EB35E77BD3AE38 /* MessageView.h */,
-				F33FDB4C731646FFB8802C20C426DD63 /* MessageView.m */,
-				7263299AD9A455AB0ED40F72F2A094C6 /* UpVersionMethod.h */,
-				0F0A1A7D1AA8BC87F6E6BD45ABAC9E0A /* UpVersionMethod.m */,
-				CED89DE05A06D43D80112C72EF1FCE27 /* UpVersionView.h */,
-				0FA7537912757B27A82CEDF62DD0A039 /* UpVersionView.m */,
-				638945562684D0D1E92B96FBA7FF4BC1 /* WJC_LoadingView.h */,
-				0873599FE2618BA4C482B6A9ACE8B036 /* WJC_LoadingView.m */,
+				ECFA06D20EAC6A34D9E879239AE91FB1 /* upVersionCancelBtnImage.png */,
+				04BDE85F2EF6DD55074AB6925048A56D /* upVersionCancelBtnImageNomal.png */,
+				04D374E735F310CA81F5C34DA1D248CB /* upVersionHeaderImage.png */,
 			);
-			name = UploadV;
-			path = ZYLoading/Classes/UploadV;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		8D59576E011BDC04719020565266E82D /* Pods-ZYLoading_Tests */ = {
@@ -188,6 +175,32 @@
 			);
 			name = "Pods-ZYLoading_Tests";
 			path = "Target Support Files/Pods-ZYLoading_Tests";
+			sourceTree = "<group>";
+		};
+		A89C7E39AA64BE4C9716D6D937B12EAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D90E0DE2B1ABA0E09C27947741DB299 /* Pods_ZYLoading_Example.framework */,
+				27A6FCEACD81658A62B14BDD4A0044CE /* Pods_ZYLoading_Tests.framework */,
+				0C1EF54F1D6020DDEF9125A95CFE7669 /* ZYLoading.bundle */,
+				614C563C02F7C6026059AF82D275DF92 /* ZYLoading.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD6947B4EF042448B462E16AFE2B6627 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				951F1C55DECE7BE2C26B47C050CDBCAE /* ResourceBundle-ZYLoading-ZYLoading-Info.plist */,
+				A1A3D40FDB9553118D02CB825B8830C6 /* ZYLoading.modulemap */,
+				77D37B2B53DE96466B96E759B90FABCD /* ZYLoading.xcconfig */,
+				76DA979022587AD2F01D6ADA0A5678F3 /* ZYLoading-dummy.m */,
+				C7A6D8B35B5E2B76D4B7EBC7B7A882C4 /* ZYLoading-Info.plist */,
+				7586A7EF9040B191C3467E277565B478 /* ZYLoading-prefix.pch */,
+				F1A687C85F0B1C2F0194DF51CE7EA766 /* ZYLoading-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZYLoading";
 			sourceTree = "<group>";
 		};
 		BD3020D3C895EABD740981F404C5E445 /* Pods-ZYLoading_Example */ = {
@@ -207,18 +220,25 @@
 			path = "Target Support Files/Pods-ZYLoading_Example";
 			sourceTree = "<group>";
 		};
-		BD3FACC9D6ED2682BFAC0087823F8470 /* Support Files */ = {
+		BD6EEF0A7C35519BEFE2D61489734E9C /* ZYLoading */ = {
 			isa = PBXGroup;
 			children = (
-				7743E644EFBF8D328EF62B194B3EF1F0 /* ZYLoading.modulemap */,
-				BC52665A69B9CA50A348402B36386F6E /* ZYLoading.xcconfig */,
-				3E80926EADC882ED077BBB05B3F4E9F3 /* ZYLoading-dummy.m */,
-				F153F70A1E534B90D3D7AE3E6B4411BD /* ZYLoading-Info.plist */,
-				72AB256440785A4D788FD52909BD6B23 /* ZYLoading-prefix.pch */,
-				7637240E6484BF4CFF34C2C65B5A7B15 /* ZYLoading-umbrella.h */,
+				5C54B06A805CFF9D217E25E61E0E4238 /* ReplaceMe.m */,
+				FA6A95CFCC5F6EA6C610F20F2508833C /* Pod */,
+				81BDC1890BE926EFDD111DFDCD5C1E49 /* Resources */,
+				AD6947B4EF042448B462E16AFE2B6627 /* Support Files */,
+				F5E85D2EEAE8C7E36EB6EF0A2D8534D2 /* UploadV */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZYLoading";
+			name = ZYLoading;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BF559A2B29625809B5A45875E16EA16A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD6EEF0A7C35519BEFE2D61489734E9C /* ZYLoading */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -233,9 +253,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				75A61BAAF8EEE789149AE38B0AF1D617 /* Development Pods */,
+				BF559A2B29625809B5A45875E16EA16A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1CF22804DCF78F0FBD42D53986F11D61 /* Products */,
+				A89C7E39AA64BE4C9716D6D937B12EAB /* Products */,
 				8125746A12501BF7C1AD20D98C046E3B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -248,16 +268,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E854BF22A5768772294FBC5FE2C3976B /* ZYLoading */ = {
+		F5E85D2EEAE8C7E36EB6EF0A2D8534D2 /* UploadV */ = {
 			isa = PBXGroup;
 			children = (
-				83B1DFB8E294B265FA359580AA8BB5B0 /* UploadV */,
-				23B6CCE847163D8B829184651E3B7199 /* ReplaceMe.m */,
-				303A152C63912E7C669A28C17DEC037C /* Pod */,
-				BD3FACC9D6ED2682BFAC0087823F8470 /* Support Files */,
+				C8746593B4E2C80F6A2F6733B6B722CE /* HSUpdateApp.h */,
+				28CE5AA8D47A6A087C5B679F9422F70D /* HSUpdateApp.m */,
+				2194F9DDF77D74DB1D8825B346E9071A /* MessageView.h */,
+				1C8A9A7B190852484A45AC070826CD32 /* MessageView.m */,
+				136CFF84E71E91AA276CCDD1AF9642BE /* UpVersionMethod.h */,
+				7239357909EEA2E850E803C4FBD387D1 /* UpVersionMethod.m */,
+				749F30723ED8BA58E17FFDCB7C6D8EEF /* UpVersionView.h */,
+				CC1623CB20356EF5FDF555EA790021FD /* UpVersionView.m */,
+				06924A0A04DCA742526C87A3127A09F2 /* WJC_LoadingView.h */,
+				F3206289BB6787350AD33070A9361437 /* WJC_LoadingView.m */,
 			);
-			name = ZYLoading;
-			path = ../..;
+			name = UploadV;
+			path = ZYLoading/Classes/UploadV;
+			sourceTree = "<group>";
+		};
+		FA6A95CFCC5F6EA6C610F20F2508833C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9C471B23B408DD5E4D3466494F9EAF93 /* LICENSE */,
+				B1DEA015E2FF20034F242337596C0D7C /* README.md */,
+				C0B19191601734F4EC58480162C55A5B /* ZYLoading.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,22 +315,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		314C67398C5AE98F80E65AD2683EEC5A /* Headers */ = {
+		478DE179D0C069F8E4F018DAFD0B6989 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E36C02794B6BB9E88AB3B7A09C5E3744 /* HSUpdateApp.h in Headers */,
-				C3FF55F6DA9F178BB0FE2C3F08E2C04F /* MessageView.h in Headers */,
-				37F785D76B2D9B57F72BAC7BE4699B1E /* UpVersionMethod.h in Headers */,
-				4BD84A4652DE527379201B2992D8B29C /* UpVersionView.h in Headers */,
-				C98F47A549D2FB454F6EDDE370781297 /* WJC_LoadingView.h in Headers */,
-				8039D058F1DA6C44712825D63DA77171 /* ZYLoading-umbrella.h in Headers */,
+				EAFB37A0C2F892312CCBEABEC28D8AAD /* HSUpdateApp.h in Headers */,
+				5660396801540DDEF5F6B95E0D46D8AA /* MessageView.h in Headers */,
+				A4EABA59AAE0670BEE4B1D2CFF91454C /* UpVersionMethod.h in Headers */,
+				4D4CD8CA8C44E9B8EA6536717B9A3C35 /* UpVersionView.h in Headers */,
+				E7B9C16B491D3A029354F09A1D8A4026 /* WJC_LoadingView.h in Headers */,
+				9AF979CEFA2269DE9A8CF66FC4A18B1B /* ZYLoading-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		944D347223B453F1CEAD1E9FF4F28096 /* ZYLoading-ZYLoading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A784BA55073208DA7E48B310379032FE /* Build configuration list for PBXNativeTarget "ZYLoading-ZYLoading" */;
+			buildPhases = (
+				069BC6790282904545B01161E87018B7 /* Sources */,
+				B7D5EB13BA863DDF0D9EE33084DFF828 /* Frameworks */,
+				FF262CCE8B1FB44574F9706BD46F79C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZYLoading-ZYLoading";
+			productName = "ZYLoading-ZYLoading";
+			productReference = 0C1EF54F1D6020DDEF9125A95CFE7669 /* ZYLoading.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		C9CC72CB58E9569EA23D57A5F7165861 /* Pods-ZYLoading_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 051F460C30681E272B1A60BCA4317EB3 /* Build configuration list for PBXNativeTarget "Pods-ZYLoading_Example" */;
@@ -335,16 +388,17 @@
 		};
 		FA1A7535D8F06B3566C6209581BCBF7E /* ZYLoading */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E23C277487D0B4EDCA2A3609AFAEF5B5 /* Build configuration list for PBXNativeTarget "ZYLoading" */;
+			buildConfigurationList = 163BB83444C753A6B5E4A7131CAE7FF4 /* Build configuration list for PBXNativeTarget "ZYLoading" */;
 			buildPhases = (
-				314C67398C5AE98F80E65AD2683EEC5A /* Headers */,
-				DDD35E44E3F0AB233A5E594802E6CAF6 /* Sources */,
-				1FB65B85A3ADB91513352CCBA4416580 /* Frameworks */,
-				90B9E0E6E322B131F169EA9E967953F5 /* Resources */,
+				478DE179D0C069F8E4F018DAFD0B6989 /* Headers */,
+				43D9AD6B235FBD70EFB151433BA868B6 /* Sources */,
+				9D0C8F3D7F133020634DFF194A4B6AE5 /* Frameworks */,
+				B38297B08DBDD95F1882C174A1F08141 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4AB973765D2F89547B595D1475A15620 /* PBXTargetDependency */,
 			);
 			name = ZYLoading;
 			productName = ZYLoading;
@@ -368,13 +422,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1CF22804DCF78F0FBD42D53986F11D61 /* Products */;
+			productRefGroup = A89C7E39AA64BE4C9716D6D937B12EAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C9CC72CB58E9569EA23D57A5F7165861 /* Pods-ZYLoading_Example */,
 				F8B16FDF487016EBE53856C00427AC79 /* Pods-ZYLoading_Tests */,
 				FA1A7535D8F06B3566C6209581BCBF7E /* ZYLoading */,
+				944D347223B453F1CEAD1E9FF4F28096 /* ZYLoading-ZYLoading */,
 			);
 		};
 /* End PBXProject section */
@@ -387,10 +442,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90B9E0E6E322B131F169EA9E967953F5 /* Resources */ = {
+		B38297B08DBDD95F1882C174A1F08141 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532B901479DCBC9360B30C6431F490D5 /* ZYLoading.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,9 +457,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF262CCE8B1FB44574F9706BD46F79C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9542C5815E3D7D0C125D59F2E45052 /* upVersionCancelBtnImage.png in Resources */,
+				CC1F7FF3221EA9678D17E30CEDC370EB /* upVersionCancelBtnImageNomal.png in Resources */,
+				18089DE70A74B2E5B5EAE645DC978400 /* upVersionHeaderImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		069BC6790282904545B01161E87018B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D9AD6B235FBD70EFB151433BA868B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36260DD795FFBCC848B0FB568CFAEA16 /* HSUpdateApp.m in Sources */,
+				A3B49AECA2DDFF0EDE734D8E6D2DE545 /* MessageView.m in Sources */,
+				1734C73266C96C9AE3426A218459EEE9 /* ReplaceMe.m in Sources */,
+				0BD2D76FD960EC07CAF63B9B7342F12C /* UpVersionMethod.m in Sources */,
+				FF11ED24C3E2A0A79235ADB6B191702F /* UpVersionView.m in Sources */,
+				E87690C4105940F1663DA7FAD0850423 /* WJC_LoadingView.m in Sources */,
+				1CB01804DD89007A6982C1468790AE02 /* ZYLoading-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EA5E1530C52AD0832A84BCB384E6FBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -420,23 +507,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDD35E44E3F0AB233A5E594802E6CAF6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E1A87E20C18559E267AEB20B017905F /* HSUpdateApp.m in Sources */,
-				C1AA572CE065ADA2A83746AA74234FCE /* MessageView.m in Sources */,
-				ADCB5ED0AF90349FCE77C233BC5BC7C9 /* ReplaceMe.m in Sources */,
-				D4FF4B6AC688513CFA4FF930845F354E /* UpVersionMethod.m in Sources */,
-				E345B057460A602FBCD55B2A67B3AC7F /* UpVersionView.m in Sources */,
-				3F40D437CAE72CEC3D0D9754234F52A0 /* WJC_LoadingView.m in Sources */,
-				FCAF81FF663846B1639709DE4132439F /* ZYLoading-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4AB973765D2F89547B595D1475A15620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZYLoading-ZYLoading";
+			target = 944D347223B453F1CEAD1E9FF4F28096 /* ZYLoading-ZYLoading */;
+			targetProxy = 43193C708AA297ABCD322002AF3C480F /* PBXContainerItemProxy */;
+		};
 		653D9A9A39BD6146E0B46A0E984BDE99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZYLoading_Example";
@@ -452,38 +531,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		462E3E9CCDF874A8649D13B1AE8226E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC52665A69B9CA50A348402B36386F6E /* ZYLoading.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZYLoading/ZYLoading-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZYLoading/ZYLoading-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZYLoading/ZYLoading.modulemap";
-				PRODUCT_MODULE_NAME = ZYLoading;
-				PRODUCT_NAME = ZYLoading;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -537,7 +584,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -611,6 +659,22 @@
 			};
 			name = Release;
 		};
+		556194C0499771067C1ACBF1B74A9E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D37B2B53DE96466B96E759B90FABCD /* ZYLoading.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZYLoading";
+				INFOPLIST_FILE = "Target Support Files/ZYLoading/ResourceBundle-ZYLoading-ZYLoading-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZYLoading;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -672,6 +736,85 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		835F3438F72876C49992EB04E770987E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D37B2B53DE96466B96E759B90FABCD /* ZYLoading.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYLoading/ZYLoading-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYLoading/ZYLoading-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYLoading/ZYLoading.modulemap";
+				PRODUCT_MODULE_NAME = ZYLoading;
+				PRODUCT_NAME = ZYLoading;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89590B709B2057FFFBC84825A643096E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D37B2B53DE96466B96E759B90FABCD /* ZYLoading.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYLoading/ZYLoading-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYLoading/ZYLoading-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYLoading/ZYLoading.modulemap";
+				PRODUCT_MODULE_NAME = ZYLoading;
+				PRODUCT_NAME = ZYLoading;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9461C7B40E9B7A73F66B745B95842580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D37B2B53DE96466B96E759B90FABCD /* ZYLoading.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZYLoading";
+				INFOPLIST_FILE = "Target Support Files/ZYLoading/ResourceBundle-ZYLoading-ZYLoading-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZYLoading;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -741,37 +884,6 @@
 			};
 			name = Debug;
 		};
-		E11EF168698C91011787F7D2F9A2AA4D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC52665A69B9CA50A348402B36386F6E /* ZYLoading.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZYLoading/ZYLoading-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZYLoading/ZYLoading-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZYLoading/ZYLoading.modulemap";
-				PRODUCT_MODULE_NAME = ZYLoading;
-				PRODUCT_NAME = ZYLoading;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -780,6 +892,15 @@
 			buildConfigurations = (
 				DFAE8F8CB1814408BB6007FFEC8291FF /* Debug */,
 				50CCE443DD0215BF5F24F709C8EF48A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163BB83444C753A6B5E4A7131CAE7FF4 /* Build configuration list for PBXNativeTarget "ZYLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835F3438F72876C49992EB04E770987E /* Debug */,
+				89590B709B2057FFFBC84825A643096E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -802,11 +923,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E23C277487D0B4EDCA2A3609AFAEF5B5 /* Build configuration list for PBXNativeTarget "ZYLoading" */ = {
+		A784BA55073208DA7E48B310379032FE /* Build configuration list for PBXNativeTarget "ZYLoading-ZYLoading" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E11EF168698C91011787F7D2F9A2AA4D /* Debug */,
-				462E3E9CCDF874A8649D13B1AE8226E8 /* Release */,
+				9461C7B40E9B7A73F66B745B95842580 /* Debug */,
+				556194C0499771067C1ACBF1B74A9E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

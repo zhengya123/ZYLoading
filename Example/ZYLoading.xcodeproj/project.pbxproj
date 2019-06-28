@@ -326,10 +326,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZYLoading_Example/Pods-ZYLoading_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ZYImageModule/ZYImageModule.framework",
 				"${BUILT_PRODUCTS_DIR}/ZYLoading/ZYLoading.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYImageModule.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYLoading.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

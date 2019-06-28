@@ -1,16 +1,24 @@
 PODS:
-  - ZYLoading (1.0.2)
+  - ZYImageModule (0.1.1)
+  - ZYLoading (1.0.3):
+    - ZYImageModule (~> 0.1.1)
 
 DEPENDENCIES:
+  - ZYImageModule
   - ZYLoading (from `../`)
+
+SPEC REPOS:
+  https://github.com/zhengya123/ZYModule.git:
+    - ZYImageModule
 
 EXTERNAL SOURCES:
   ZYLoading:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZYLoading: a2f2778597f91b10e4603de80e94988489aa4b24
+  ZYImageModule: 7f10e21591cd46c62d56d4d6ea106c40997d03d3
+  ZYLoading: 3cdabfd46cf89a09cd56608349692da2d2f077dd
 
-PODFILE CHECKSUM: a87ce6578aa03a992b32471048a4fddbc2381c8d
+PODFILE CHECKSUM: ccdce522a25541aaa903d87e3b17589ab5a9aa0d
 
 COCOAPODS: 1.7.2

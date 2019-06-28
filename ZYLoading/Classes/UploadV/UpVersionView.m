@@ -7,6 +7,7 @@
 //
 
 #import "UpVersionView.h"
+
 //屏幕的宽度
 #define ScreenWidth  [UIScreen mainScreen].bounds.size.width
 //屏幕的高度
@@ -94,7 +95,7 @@
 - (UIImageView *)imageView{
     if (_imageView == nil) {
         _imageView = [UIImageView new];
-        _imageView.image = [UIImage imageNamed:@"upVersionHeaderImage.png"];
+        _imageView.image = [UIImage Zy_imgWithName:@"upVersionHeaderImage" targetClass:[self class]];
     }
     return _imageView;
 }
@@ -107,9 +108,10 @@
 }
 - (UIButton *)cancelBtn{
     if (_cancelBtn == nil) {
+        //UIImage * image = [UIImage Zy_imgWithName:@"upVersionCancelBtnImage" targetClass:[self class]];
         _cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_cancelBtn setImage:[UIImage imageNamed:@"upVersionCancelBtnImage.png"] forState:UIControlStateNormal];
-        [_cancelBtn setImage:[UIImage imageNamed:@"upVersionCancelBtnImage.png"] forState:UIControlStateHighlighted];
+        [_cancelBtn setImage:[UIImage Zy_imgWithName:@"upVersionCancelBtnImage" targetClass:[self class]] forState:UIControlStateNormal];
+        [_cancelBtn setImage:[UIImage Zy_imgWithName:@"upVersionCancelBtnImage" targetClass:[self class]] forState:UIControlStateHighlighted];
         [_cancelBtn addTarget:self action:@selector(cancelBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _cancelBtn;

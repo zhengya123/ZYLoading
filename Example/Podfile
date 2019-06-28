@@ -1,10 +1,12 @@
+source 'https://github.com/zhengya123/ZYModule.git'
 use_frameworks!
 
 platform :ios, '8.0'
 
 target 'ZYLoading_Example' do
   pod 'ZYLoading', :path => '../'
-
+  pod 'ZYImageModule'
+  
   target 'ZYLoading_Tests' do
     inherit! :search_paths
 

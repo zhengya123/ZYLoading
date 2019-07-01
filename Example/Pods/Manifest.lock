@@ -1,6 +1,6 @@
 PODS:
   - ZYImageModule (0.1.1)
-  - ZYLoading (1.0.4):
+  - ZYLoading (1.0.5):
     - ZYImageModule (~> 0.1.1)
 
 DEPENDENCIES:
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ZYImageModule: 7f10e21591cd46c62d56d4d6ea106c40997d03d3
-  ZYLoading: afabbbc889c9a587e17f440801ba08f28704f4dc
+  ZYLoading: 0e24bdc8f1c5ccc419bafcf263e036f8dbff4dca
 
 PODFILE CHECKSUM: ccdce522a25541aaa903d87e3b17589ab5a9aa0d
 
